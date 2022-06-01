@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.announcement-bar {
+    background-color: orange;
+    text-align: center;
+    position: relative;
+}
+
+.announcement-message {
+    color: white;
+    display: block;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px 22px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-nav {
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin: 25px 0;
+    list-style: none;
+    align-items: center;
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.site-nav>li>a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
