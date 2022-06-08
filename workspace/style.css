@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* what is border-box */
+}
+
+.page1-header {
+    text-align: center!important;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.page1-header h1 {
+    font-size: 3.7em;
+    line-height: 1.1em;
+    letter-spacing: 0.04em;
+}
+
+.page1-header p {
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+
+.page1-container {
+    height: 100vh;
+    position: relative;
+    background-image: url("image/workspace3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
