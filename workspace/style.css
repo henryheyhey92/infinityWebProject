@@ -33,3 +33,13 @@
     background-repeat: no-repeat;
 
 }
+
+.card{
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 991px){
+    .form-textbox {
+        margin: 5px 0 5px 0;
+    }
+}
